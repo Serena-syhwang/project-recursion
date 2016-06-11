@@ -1,0 +1,205 @@
+#entry{
+	width:800;
+	height:150;
+	position:fixed;
+	top:40%;
+	left:40%;
+	margin-top:-75;
+	margin-left:-150;
+}
+div#index{
+	margin-top:25;
+	position:absolute;
+	right:50;
+	display:inline-block;
+}
+div#index input[type="button"]{
+	background:#d64078;
+	border-radius: 4px;
+    border: solid #b03060 1px;
+	border-bottom: solid #b03060 4px;
+	text-shadow: 0px 2px 0 #b03060;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+	width:100;
+}
+div#index input[type="button"]:hover,
+div#index input[type="button"]:focus {
+    cursor:pointer;
+	background: #c63b6f;
+}
+div#index input[type="button"]:active {
+    background: #666;
+}
+a{
+	text-decoration:none;
+}
+div#entry input[type="button"] {
+    background: #d64078;
+	border-radius: 4px;
+    border: solid #b03060 1px;
+	border-bottom: solid #b03060 4px;
+	text-shadow: 0px 2px 0 #b03060;
+    padding: 5px 10px;
+	margin-bottom:20;
+    color: white;
+    font-size: 20px;
+	font-family:Microsoft YaHei;
+	height:70;
+	width:300;
+	display:inline-block;
+}
+div#entry input[type="button"]:hover,
+div#entry input[type="button"]:focus {
+    cursor:pointer;
+	background: #c63b6f;
+}
+div#entry input[type="button"]:active {
+    background: #666;
+}
+h1{
+	font-family:Microsoft YaHei;
+	color:white;
+	padding-left:30;
+	width:50%;
+	display:inline-block;
+}
+#banner{
+	height: 15%;
+	border-bottom: 2px solid white;
+	background:#d64078;
+}
+#menu{
+	background:#FFB6C1;
+	float: left;
+	width: 15%;
+	height: 90%;
+	border-right: 2px solid white;
+}
+#menu ul li{
+	
+	font-famliy: verdana;
+	font-size: 20px;
+	font-weight: bold;
+    margin: 30px 0 20px 0;
+    list-style-type : none;
+}
+#container{
+	height:87%;
+	width:82%;
+	overflow:auto;
+	float: left;
+	
+	padding-left:30px;
+}
+#explanation{
+	float:left;
+	margin-left:30;
+	margin-top:30;
+	height:100%;
+	width:35%;
+	font-size: 14px;
+	font-family:cursive;
+}
+#buzhou{
+	background:#d64078;
+	border-radius: 4px;
+	text-shadow: 0px 2px 0 #b03060;
+	font-family:Microsoft YaHei;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+	width:60%;
+}
+#step{
+	height:30%;
+	font-size: 14px;
+	font-family:cursive;
+}
+#jieguo{
+	background:#d64078;
+	border-radius: 4px;
+	text-shadow: 0px 2px 0 #b03060;
+	font-family:Microsoft YaHei;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+	width:60%;
+}
+#result{
+	height:70%;
+	width:30%;
+}
+.table{
+	display:inline-block;
+	position:absolute;
+	overflow:auto;
+	
+	border: 2px solid #d64078;
+    border-radius: 20px;
+	margin-right:5;
+    text-align: center;
+	/*line-height: 75px;*/
+    font-size: 14px;
+	font-family:cursive;
+	font-weight:bold;
+}
+.table:hover,
+.table:focus {
+    cursor:pointer;
+	background: FFB6C1;
+}
+#footer{
+	background:#d64078;
+	border-top:0.5px solid white;
+	clear: both;
+	text-align: center;
+    font-size: 16px;
+	font-family:cursive;
+}
+ul input[type="button"] {
+    background:#d64078;
+	border-radius: 4px;
+    border: solid #b03060 1px;
+	border-bottom: solid #b03060 4px;
+	text-shadow: 0px 2px 0 #b03060;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+	width:80%;
+}
+
+ul input[type="button"]:hover,
+ul input[type="button"]:focus {
+    cursor:pointer;
+	background: #c63b6f;
+}
+
+ul input[type="button"]:active {
+    background: #666;
+}
+
+ul input[type="text"] {
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid #d64078;
+    background: white;
+	width:80%;
+}
+ul input[type="submit"] {
+    background:#d64078;
+	border-radius: 10px;
+    border: solid #b03060 1px;
+	text-shadow: 0px 2px 0 #b03060;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+	width:40%;
+}
+ul input[type="submit"]:hover,
+ul input[type="submit"]:focus {
+    cursor:pointer;
+	background: #c63b6f;
+}
